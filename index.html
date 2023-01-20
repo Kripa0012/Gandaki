@@ -1,55 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>advance css using grid layout question no.3</title>
-    <style>
-        #grid{
-          display: inline-grid;
-          grid-template-columns: 2fr;
-          grid-template-rows: 2fr;
-         justify-content: center;
-         align-content: center;
-        }
-        #a{
-            grid-column: 1 /span 2;
-            grid-row: 1;
-            margin: 2px;
-            width: 500px;
-            padding-top: 20px;
-            border: 2px solid black;
-            justify-items: center;
-            align-items: center;
-        }
-        #b{
-            grid-column: 1;
-            grid-row: 2;
-            margin: 2px;
-            width: 300px;
-            padding-top: 20px;
-            border: 2px solid black;
-            height: 200px;
-            justify-items: center;
-        }
-        #c{
-            grid-column: 2;
-            grid-row: 2;
-            width: 192px;
-            margin: 2px;
-            
-            padding-top: 20px;
-            border: 2px solid black;
-        }
-
-    </style>
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="labno_3.css"> -->
+    <style>#grid{
+        display: grid; 
+     
+     }
+      nav{
+         border: 2px solid black;
+         background-color: antiquewhite;
+      }
+      #link1{
+          
+      }</style>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <h1>My Website</h1>
+            <div id="link1">Link1</div>
+            <div id="link2">Link2</div>
+            <div id="link3">Link3</div>
+        </nav>
+    </header>
     <div id="grid">
-        <div id="a">A</div>
-        <div id="b">B</div>
-        <div id="c">C</div>
+        <h1>This is the main heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, iste laboriosam repudiandae labore qui quo
+            consectetur atque in vel id dicta vitae adipisci blanditiis porro rerum amet autem officia impedit officiis
+            error?</p>
+
+        <div class="block">
+            <title class="c1">card one</title>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, veniam. Maiores quos, reprehenderit
+                nemo modi quisquam dolores placeat, expedita, possimus commodi doloremque eveniet deserunt dolorum
+                provident magni quam nulla ea.</p>
+        </div>
+        <div class="block1">
+            <title class="c1">card one</title>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, veniam. Maiores quos, reprehenderit
+                nemo modi quisquam dolores placeat, expedita, possimus commodi doloremque eveniet deserunt dolorum
+                provident magni quam nulla ea.</p>
+        </div>
+        <div class="block2">
+            <title class="c2">card two</title>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, veniam. Maiores quos, reprehenderit
+                nemo modi quisquam dolores placeat, expedita, possimus commodi doloremque eveniet deserunt dolorum
+                provident magni quam nulla ea.</p>
+        </div>
+        <div class="block3">
+            <title class="c3">card three</title>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, veniam. Maiores 
+                   quos, reprehenderit
+                nemo modi quisquam dolores placeat, expedita, possimus commodi doloremque eveniet 
+                deserunt dolorum
+                provident magni quam nulla ea.</p>
+        </div>
+
+        <div class="block4">
+            <title class="c4">card four</title>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, veniam. Maiores quos, reprehenderit
+                nemo modi quisquam dolores placeat, expedita, possimus commodi doloremque eveniet deserunt dolorum
+                provident magni quam nulla ea.</p>
+        </div>
+        <div class="block5">
+            <title class="c5">card five</title>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, veniam. Maiores quos, reprehenderit
+                nemo modi quisquam dolores placeat, expedita, possimus commodi doloremque eveniet deserunt dolorum
+                provident magni quam nulla ea.</p>
+        </div>
+
+        <div class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempore 
+              dolorum assumenda eaque minima nostrum earum dolore corporis, iusto architecto!</div>
     </div>
 </body>
+
 </html>
